@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var marvelContainer = document.getElementById('marvel-container');
 	var footer = document.getElementById('footer');
 	footer.innerHTML = "<a href=\"http://marvel.com\">Data provided by Marvel. © 2017 MARVEL</a>";
-	var url = "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=70c0d398bbc8594678509183fd25fedf&hash=89c3d272e2c01082852b557b54d3262d";
+	var url = "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=70c0d398bbc8594678509183fd25fedf&hash=89c3d272e2c01082852b557b54d3262d";
 	$.ajax({
 			url: url,
 			type:"GET",
