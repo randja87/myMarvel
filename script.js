@@ -35,7 +35,7 @@ $(document).ready(function(){
 						});
 					} else {
 						$('.sticki').append('<li>'+heroName+'</li>');
-						localStorage.setItem('Heroes','heroName');
+						localStorage.setItem('Heroes',heroName);
 					}
 				});
 			},
