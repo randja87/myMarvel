@@ -31,6 +31,7 @@ $(document).ready(function(){
 						$('.sticki li').each(function(){
 							if(heroName == $(this).text()){
 								$(this).remove();
+							  localStorage.removeItem("Heroes");
 							}
 						});
 					} else {
